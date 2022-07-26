@@ -14,14 +14,5 @@
     <input type="text" name="email" required="required" placeholder="Please enter your email" autofocus required></input>
     <input type="submit" title="Subscribe" name="sub" value="Subscribe"></input>
     </form>
-    <?php
-    if (isset($_POST['sub']))
-		{
-            include('mysql.php');
-			$emails = mysqli_real_escape_string($con, $_POST['email']);
-			$query 		= mysqli_query($con, "INSERT INTO test.email(Email) VALUES ('$emails')");
-            echo "Your subscript was success. Thank You! ";
-        }
-    ?>
 </body>
 </html>
