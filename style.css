@@ -1,13 +1,26 @@
 body{
-    background-color: aqua;
-    text-align: center;
+    background-color: rgb(235, 223, 0);
+    margin-left:7%;
+    margin-right: 10%;
 }
 h1{
     color:blue;
+    text-align: center;
+    stroke-opacity: calc();
 }
 a{
     color: crimson;
 }
 submit_button{
     color:crimson;
+}
+#contact{
+    color:aqua;
+}
+form{
+    align-items: center;
+    text-align: center;
+}
+ul{
+color:rgb(255, 0, 0);
 }
