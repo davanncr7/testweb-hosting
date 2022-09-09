@@ -2,11 +2,14 @@ body{
     background-color: rgb(235, 223, 0);
     margin-left:7%;
     margin-right: 10%;
+    background-attachment: fixed;
 }
 h1{
+    font-size: 50px;
     color:blue;
     text-align: center;
     stroke-opacity: calc();
+    text-shadow:aqua 2px 2px 2px,aqua -2px -2px 2px;
 }
 a{
     color: crimson;
