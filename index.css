@@ -7,7 +7,6 @@ body{
 h1{
     font-size: 50px;
     color:blue;
-    text-align: center;
     stroke-opacity: calc();
     text-shadow:aqua 2px 2px 2px,aqua -2px -2px 2px;
 }
@@ -29,4 +28,9 @@ color:rgb(255, 0, 0);
 }
 h2{
     color: blue;
+}
+marquee{
+    color:yellow;
+
+    font-size: 25px;
 }
